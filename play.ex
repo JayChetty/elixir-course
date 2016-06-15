@@ -1,5 +1,10 @@
-defmodule Play do
-  def hello do
+defmodule Person do
+  def talk() do
     "hello"
   end
 end
+
+
+
+
+IO.puts Person.talk()
